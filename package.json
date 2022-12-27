@@ -1,0 +1,26 @@
+{
+  "name": "contactsapi",
+  "version": "1.0.0",
+  "description": "MTN and Airtel Uganda contacts REST API",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdoulanziz/ContactsAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdoulanziz/ContactsAPI/issues"
+  },
+  "homepage": "https://github.com/Abdoulanziz/ContactsAPI#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.1"
+  }
+}
