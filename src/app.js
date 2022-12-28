@@ -22,5 +22,4 @@ app.use(express.json());
 
 app.use("/api", contactRouter);
 
-// Validate the numbers
 // Categorize the numbers by ISPs
